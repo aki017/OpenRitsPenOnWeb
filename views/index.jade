@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  
+  div#id
+  div#type
+
+  canvas(width="700px", height="700px")#canvas
+  input(type="text", value="")#message
+  input(type="button", value="send", onclick="send()")
+  pre#recv
