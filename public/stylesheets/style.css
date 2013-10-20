@@ -6,3 +6,11 @@ body {
 a {
   color: #00B7FF;
 }
+
+#recv { 
+  overflow: scroll;
+  background: #000000;
+  color: #FFFFFF;
+  width: 800px;
+  height: 400px;
+}
